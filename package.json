@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -15,12 +17,14 @@
     "mongodb": "^2.2.33",
     "mongoose": "^4.12.4",
     "node-telegram-bot-api": "^0.28.0",
-    "telegram-mtproto": "^3.2.11"
+    "telegram-mtproto": "^3.2.11",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "mocha": "^3.5.3"
   },
   "engines": {
     "node": "8.2.x"
-  }
+  },
+  "snyk": true
 }
