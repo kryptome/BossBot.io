@@ -11,10 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.4",
-    "express": "^4.16.2",
+    "express": "^4.22.0",
     "mongodb": "^2.2.33",
     "mongoose": "^4.12.4",
-    "node-telegram-bot-api": "^0.28.0",
+    "node-telegram-bot-api": "^0.64.0",
     "telegram-mtproto": "^3.2.11"
   },
   "devDependencies": {
